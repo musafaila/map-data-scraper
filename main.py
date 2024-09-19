@@ -13,13 +13,12 @@ from utils import save_to_json
 
 def main():
     HOSPITALS_DETAILS = []
+    driver = webdriver.Firefox()
     try:
         url = ("https://www.hfr.health.gov.ng/facilities/hospitals-search?_token"
                "=E3321E8IgvQTOPw8JH4IiX8U2TBmjoqDfTwOfzEq&state_id=133&ward_id=0&facility_level_id=0&ownership_id=0"
                "&operational_status_id=1&registration_status_id=0&license_status_id=0&geo_codes=0&service_type=0"
                "&service_category_id=0&entries_per_page=2000#")
-
-        driver = webdriver.Firefox()
 
         driver.get(url)
 
