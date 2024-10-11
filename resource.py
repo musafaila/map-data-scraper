@@ -2,7 +2,7 @@
 
 # git clone the repo
 # install python if you don't have it
-# run "pip install requirements.txt"
+# run "pip install -r requirements.txt"
 # Comment all the settings(number of pages) and only uncomment the one with your name at the top
 # goto your terminal, and navigate to the directory.
 # finally run "python main.py"
