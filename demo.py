@@ -1,27 +1,75 @@
-import spacy
 
-from utils import load_json
+from utils import load_json,convert_to_csv
 
+import  pandas as pd
 
 def demo():
-    # Load pre-trained spaCy model
-    nlp = spacy.load("en_core_web_sm")
+   hospitals = load_json("hospitals.json")
 
-    hospitals = load_json('hospitals.json')
+   # IDENTIFIERS
+   # fcode
+   # suid
+   # regNo
+   # name
+   # sdate
+   # ownership
+   # type
+   # level
+   # opDays
+   # opHours
 
-    for hospital in hospitals:
-        services = hospital.get("Services")["Specific Clinical Services"]
+   # LOCATION
+   # state
+   # lga
+   # ward
+   # locDesc
+   # lat
+   # long
 
-        # Apply NLP model to extract entities
-        doc = nlp(services)
+   # CONTACTS
+   # phone
+   # email
+   # website
 
-        # Extract noun phrases or entities as services
-        services_list = [chunk.text for chunk in doc.noun_chunks]
+   # STATUS
+   # opStatus
+   # regStatus
 
-        print(services_list)
 
-        # [print(service) for service in services_list]
-        print("")
+   formatted_hospitals = []
+   for hospital in hospitals:
+      formatted_hospitals.append({
+         "fcode": hospital.get('Identifiers')['Facility Code'],
+         "suid": hospital.get('Identifiers')['State Unique ID'],
+         "regNo": hospital.get('Identifiers')['Registration No'],
+         "name": hospital.get('Identifiers')['Facility Name'],
+         "sDate": hospital.get('Identifiers')['Start Date'],
+         "ownership": hospital.get('Identifiers')['Ownership'],
+         "type": hospital.get('Identifiers')['Ownership Type'],
+         "level": hospital.get('Identifiers')['Facility Level'],
+         "opDays": hospital.get('Identifiers')['Days of Operation'],
+         "opHours": hospital.get('Identifiers')['Hours of Operation'],
+
+         # location
+         "state": hospital.get('Location')['State'],
+         "lga": hospital.get('Location')['LGA'],
+         "ward": hospital.get('Location')['Ward'],
+         "locDesc": hospital.get('Location')['Physical Location'],
+         "lat": hospital.get('Location')['Latitude'],
+         "long": hospital.get('Location')['Longitude'],
+
+         # contacts
+         "phone": hospital.get('Contacts')['Phone Number'],
+         "email": hospital.get('Contacts')['Email Address'],
+         "website": hospital.get('Contacts')['Website'],
+
+         # status
+         "opStatus": hospital.get('Status')['Operational Status'],
+         "regStatus": hospital.get('Status')['Registration Status'],
+      })
+
+
+   convert_to_csv(formatted_hospitals, 'hospitals.csv')
 
 
 demo()

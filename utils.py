@@ -32,3 +32,14 @@ def convert_to_csv(data: [], path):
             writer.writerow(obj)
 
     print(f"CSV file '{path}' has been created successfully.")
+
+
+def flatten_dict_innermost(d):
+    items = []
+    for k, v in d.items():
+        if isinstance(v, dict):
+            # Recursively call the function to go deeper
+            items.extend(flatten_dict_innermost(v).items())
+        else:
+            items.append((k, v))
+    return dict(items)
