@@ -83,8 +83,7 @@ def scraper(url, name, page):
     finally:
         driver.quit()
 
-        if len(HOSPITALS_DETAILS) > 0:
-            save_to_json(f'{name}_page-{page}-hospitals.json', HOSPITALS_DETAILS)
+        save_to_json(f'{name}_page-{page}-hospitals.json',HOSPITALS_DETAILS)
 
         if len(ERRORS) > 0:
             save_to_json(f'{name}_page-{page}-errors.json', ERRORS)
