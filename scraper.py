@@ -19,18 +19,21 @@ def scraper(url, name, index):
 
     driver = None
     try:
-        driver = webdriver.Firefox()
+        options = webdriver.FirefoxOptions()
+        options.add_argument('--headless')
+
+        driver = webdriver.Firefox(options=options)
     except Exception as e:
         print(e)
-
-    options = webdriver.FirefoxOptions()
-    options.add_argument('-headless')
 
     try:
         if not driver:
            return
 
+        print("")
         print('fired')
+        print("")
+
         driver.get(url)
 
         # Wait for the hospital table to be visible

@@ -9,7 +9,9 @@ def main():
 
     for i in range(len(urls)):
         data = scraper(url=urls[i], name=name, index=i )
-        print(len(data))
+
+        if data:
+            print(len(data))
 
 
 main()

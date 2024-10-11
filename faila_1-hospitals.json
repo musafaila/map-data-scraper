@@ -1,0 +1,752 @@
+[
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0001",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Aba Holy Wounds Hospital",
+            "Alternate Name": "",
+            "Start Date": "2003-10-05",
+            "Ownership": "Private",
+            "Ownership Type": "For Profit",
+            "Facility Level": "Secondary",
+            "Facility Level Option": "",
+            "Days of Operation": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "7.34134",
+            "Latitude": "5.11445"
+        },
+        "Contacts": {
+            "Phone Number": "0080-338-0170",
+            "Alternate Number": "",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Registered",
+            "License Status": "Licensed"
+        },
+        "Services": {
+            "Out Patient Services": "Yes",
+            "In Patient Services": "Yes",
+            "Medical Services": "Gastroenterology Hematology",
+            "Surgical Services": "General Surgery Anesthesia Pediatric Surgery",
+            "Obsterics and Gynecology Services": "Obstetrics Gynecology Fertility/Assisted Reproductive Techniques",
+            "Pediatrics Services": "Gastroenterology Nephrology Oncology Endocrinology",
+            "Dental Services": "",
+            "Specific Clinical Services": [
+                "Antenatal Care (ANC)",
+                "Immunization",
+                "HIV/ AIDS Services",
+                "Non Communicable Diseases",
+                "Family Planning",
+                "Intensive Care Services",
+                "Communicable Diseases",
+                "Hepatitis",
+                "Accidents and Emergency",
+                "Nutrition",
+                "Health Education and Community Mobilization",
+                "Maternal and newborn care"
+            ],
+            "Total number of Beds": "14",
+            "Onsite Laboratory": "Yes",
+            "Onsite Imaging": "Yes",
+            "Onsite Pharmacy": "Yes",
+            "Mortuary Services": "",
+            "Ambulance Services": "Yes"
+        },
+        "Personnel": {
+            "Number of Doctors": "3",
+            "Number of Pharmacists": "0",
+            "Number Pharmacy Technicians": "1",
+            "Number of Dentists": "0",
+            "Number of Dental Technicians": "",
+            "Number of Nurses": "2",
+            "Number of Midwifes": "1",
+            "Number of Nurses/Midwifes": "2",
+            "Number of Lab Technicians": "1",
+            "Number of Lab Scientits": "1",
+            "Health Records/HIM Officers": "0",
+            "Number of Community Health Officer": "2",
+            "Number of Community Health Extension Worker": "1",
+            "Number of Junior Com Health Extension Worker": "1",
+            "Number of Environmental Health Officers": "0",
+            "Number of Health Attendant/Assistant": "0"
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0012",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Chidima Hospital",
+            "Alternate Name": "",
+            "Start Date": "",
+            "Ownership": "Private",
+            "Ownership Type": "",
+            "Facility Level": "Primary",
+            "Facility Level Option": "",
+            "Days of Operation": "",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "",
+            "Latitude": ""
+        },
+        "Contacts": {
+            "Phone Number": "",
+            "Alternate Number": "",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Unknown",
+            "License Status": "Unknown"
+        },
+        "Services": {
+            "Out Patient Services": "",
+            "In Patient Services": "",
+            "Medical Services": "",
+            "Surgical Services": "",
+            "Obsterics and Gynecology Services": "",
+            "Pediatrics Services": "",
+            "Dental Services": "",
+            "Specific Clinical Services": [],
+            "Total number of Beds": "",
+            "Onsite Laboratory": "",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "",
+            "Number of Pharmacists": "",
+            "Number Pharmacy Technicians": "",
+            "Number of Dentists": "",
+            "Number of Dental Technicians": "",
+            "Number of Nurses": "",
+            "Number of Midwifes": "",
+            "Number of Nurses/Midwifes": "",
+            "Number of Lab Technicians": "",
+            "Number of Lab Scientits": "",
+            "Health Records/HIM Officers": "",
+            "Number of Community Health Officer": "",
+            "Number of Community Health Extension Worker": "",
+            "Number of Junior Com Health Extension Worker": "",
+            "Number of Environmental Health Officers": "",
+            "Number of Health Attendant/Assistant": ""
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0025",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Euna Hospital",
+            "Alternate Name": "",
+            "Start Date": "2008-12-03",
+            "Ownership": "Private",
+            "Ownership Type": "For Profit",
+            "Facility Level": "Secondary",
+            "Facility Level Option": "",
+            "Days of Operation": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "7.35312",
+            "Latitude": "5.12019"
+        },
+        "Contacts": {
+            "Phone Number": "0080-330-3474",
+            "Alternate Number": "0081-274-7084",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Registered",
+            "License Status": "Licensed"
+        },
+        "Services": {
+            "Out Patient Services": "Yes",
+            "In Patient Services": "Yes",
+            "Medical Services": "",
+            "Surgical Services": "",
+            "Obsterics and Gynecology Services": "",
+            "Pediatrics Services": "",
+            "Dental Services": "",
+            "Specific Clinical Services": [],
+            "Total number of Beds": "17",
+            "Onsite Laboratory": "Yes",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "Yes",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "1",
+            "Number of Pharmacists": "0",
+            "Number Pharmacy Technicians": "0",
+            "Number of Dentists": "",
+            "Number of Dental Technicians": "0",
+            "Number of Nurses": "1",
+            "Number of Midwifes": "1",
+            "Number of Nurses/Midwifes": "1",
+            "Number of Lab Technicians": "1",
+            "Number of Lab Scientits": "0",
+            "Health Records/HIM Officers": "0",
+            "Number of Community Health Officer": "0",
+            "Number of Community Health Extension Worker": "0",
+            "Number of Junior Com Health Extension Worker": "0",
+            "Number of Environmental Health Officers": "0",
+            "Number of Health Attendant/Assistant": "0"
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0030",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Goodness & Mercy hospital",
+            "Alternate Name": "",
+            "Start Date": "2009-02-06",
+            "Ownership": "Private",
+            "Ownership Type": "For Profit",
+            "Facility Level": "Secondary",
+            "Facility Level Option": "",
+            "Days of Operation": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "7.34552002",
+            "Latitude": "5.115905762"
+        },
+        "Contacts": {
+            "Phone Number": "0803-545-1982",
+            "Alternate Number": "",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Registered",
+            "License Status": "Licensed"
+        },
+        "Services": {
+            "Out Patient Services": "Yes",
+            "In Patient Services": "Yes",
+            "Medical Services": "",
+            "Surgical Services": "General Surgery",
+            "Obsterics and Gynecology Services": "",
+            "Pediatrics Services": "Gastroenterology Pulmonology Neonatology",
+            "Dental Services": "",
+            "Specific Clinical Services": [
+                "Immunization",
+                "HIV/ AIDS Services",
+                "Family Planning",
+                "Intensive Care Services",
+                "Hepatitis",
+                "Child Survival",
+                "Accidents and Emergency",
+                "Nutrition",
+                "Maternal and newborn care"
+            ],
+            "Total number of Beds": "12",
+            "Onsite Laboratory": "Yes",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "Yes",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "2",
+            "Number of Pharmacists": "0",
+            "Number Pharmacy Technicians": "1",
+            "Number of Dentists": "0",
+            "Number of Dental Technicians": "0",
+            "Number of Nurses": "1",
+            "Number of Midwifes": "1",
+            "Number of Nurses/Midwifes": "0",
+            "Number of Lab Technicians": "1",
+            "Number of Lab Scientits": "0",
+            "Health Records/HIM Officers": "0",
+            "Number of Community Health Officer": "3",
+            "Number of Community Health Extension Worker": "5",
+            "Number of Junior Com Health Extension Worker": "0",
+            "Number of Environmental Health Officers": "",
+            "Number of Health Attendant/Assistant": "4"
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0031",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Green Land Hospital",
+            "Alternate Name": "",
+            "Start Date": "",
+            "Ownership": "Private",
+            "Ownership Type": "",
+            "Facility Level": "Primary",
+            "Facility Level Option": "",
+            "Days of Operation": "",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "",
+            "Latitude": ""
+        },
+        "Contacts": {
+            "Phone Number": "",
+            "Alternate Number": "",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Unknown",
+            "License Status": "Unknown"
+        },
+        "Services": {
+            "Out Patient Services": "",
+            "In Patient Services": "",
+            "Medical Services": "",
+            "Surgical Services": "",
+            "Obsterics and Gynecology Services": "",
+            "Pediatrics Services": "",
+            "Dental Services": "",
+            "Specific Clinical Services": [],
+            "Total number of Beds": "",
+            "Onsite Laboratory": "",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "",
+            "Number of Pharmacists": "",
+            "Number Pharmacy Technicians": "",
+            "Number of Dentists": "",
+            "Number of Dental Technicians": "",
+            "Number of Nurses": "",
+            "Number of Midwifes": "",
+            "Number of Nurses/Midwifes": "",
+            "Number of Lab Technicians": "",
+            "Number of Lab Scientits": "",
+            "Health Records/HIM Officers": "",
+            "Number of Community Health Officer": "",
+            "Number of Community Health Extension Worker": "",
+            "Number of Junior Com Health Extension Worker": "",
+            "Number of Environmental Health Officers": "",
+            "Number of Health Attendant/Assistant": ""
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0041",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Ivory Specialist Hospital Maternity",
+            "Alternate Name": "",
+            "Start Date": "1992-02-04",
+            "Ownership": "Private",
+            "Ownership Type": "For Profit",
+            "Facility Level": "Secondary",
+            "Facility Level Option": "",
+            "Days of Operation": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "7.340881347",
+            "Latitude": "5.113891602"
+        },
+        "Contacts": {
+            "Phone Number": "0803-934-0236",
+            "Alternate Number": "0803-812-6132",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Registered",
+            "License Status": "Licensed"
+        },
+        "Services": {
+            "Out Patient Services": "Yes",
+            "In Patient Services": "Yes",
+            "Medical Services": "Gastroenterology Hematology Geriatrics  Neurology Infectious Diseases",
+            "Surgical Services": "General Surgery",
+            "Obsterics and Gynecology Services": "Obstetrics Gynecology",
+            "Pediatrics Services": "",
+            "Dental Services": "",
+            "Specific Clinical Services": [
+                "Antenatal Care (ANC)",
+                "Immunization",
+                "HIV/ AIDS Services",
+                "Non Communicable Diseases",
+                "Family Planning",
+                "Intensive Care Services",
+                "Communicable Diseases",
+                "Hepatitis",
+                "Child Survival",
+                "Accidents and Emergency",
+                "Nutrition",
+                "Health Education and Community Mobilization",
+                "Maternal and newborn care"
+            ],
+            "Total number of Beds": "10",
+            "Onsite Laboratory": "Yes",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "Yes",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "2",
+            "Number of Pharmacists": "1",
+            "Number Pharmacy Technicians": "1",
+            "Number of Dentists": "2",
+            "Number of Dental Technicians": "0",
+            "Number of Nurses": "4",
+            "Number of Midwifes": "2",
+            "Number of Nurses/Midwifes": "2",
+            "Number of Lab Technicians": "2",
+            "Number of Lab Scientits": "0",
+            "Health Records/HIM Officers": "0",
+            "Number of Community Health Officer": "0",
+            "Number of Community Health Extension Worker": "1",
+            "Number of Junior Com Health Extension Worker": "0",
+            "Number of Environmental Health Officers": "0",
+            "Number of Health Attendant/Assistant": "3"
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0044",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Land Mark Hospital",
+            "Alternate Name": "",
+            "Start Date": "",
+            "Ownership": "Private",
+            "Ownership Type": "",
+            "Facility Level": "Primary",
+            "Facility Level Option": "",
+            "Days of Operation": "",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "7.337890625",
+            "Latitude": "5.107910156"
+        },
+        "Contacts": {
+            "Phone Number": "",
+            "Alternate Number": "",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Unknown",
+            "License Status": "Unknown"
+        },
+        "Services": {
+            "Out Patient Services": "",
+            "In Patient Services": "",
+            "Medical Services": "",
+            "Surgical Services": "",
+            "Obsterics and Gynecology Services": "",
+            "Pediatrics Services": "",
+            "Dental Services": "",
+            "Specific Clinical Services": [],
+            "Total number of Beds": "",
+            "Onsite Laboratory": "",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "",
+            "Number of Pharmacists": "",
+            "Number Pharmacy Technicians": "",
+            "Number of Dentists": "",
+            "Number of Dental Technicians": "",
+            "Number of Nurses": "",
+            "Number of Midwifes": "",
+            "Number of Nurses/Midwifes": "",
+            "Number of Lab Technicians": "",
+            "Number of Lab Scientits": "",
+            "Health Records/HIM Officers": "",
+            "Number of Community Health Officer": "",
+            "Number of Community Health Extension Worker": "",
+            "Number of Junior Com Health Extension Worker": "",
+            "Number of Environmental Health Officers": "",
+            "Number of Health Attendant/Assistant": ""
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0049",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "New Lead Hospital",
+            "Alternate Name": "",
+            "Start Date": "",
+            "Ownership": "Private",
+            "Ownership Type": "",
+            "Facility Level": "Primary",
+            "Facility Level Option": "",
+            "Days of Operation": "",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "7.34401745",
+            "Latitude": "5.1183694"
+        },
+        "Contacts": {
+            "Phone Number": "",
+            "Alternate Number": "",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Unknown",
+            "License Status": "Unknown"
+        },
+        "Services": {
+            "Out Patient Services": "",
+            "In Patient Services": "",
+            "Medical Services": "",
+            "Surgical Services": "",
+            "Obsterics and Gynecology Services": "",
+            "Pediatrics Services": "",
+            "Dental Services": "",
+            "Specific Clinical Services": [],
+            "Total number of Beds": "",
+            "Onsite Laboratory": "",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "",
+            "Number of Pharmacists": "",
+            "Number Pharmacy Technicians": "",
+            "Number of Dentists": "",
+            "Number of Dental Technicians": "",
+            "Number of Nurses": "",
+            "Number of Midwifes": "",
+            "Number of Nurses/Midwifes": "",
+            "Number of Lab Technicians": "",
+            "Number of Lab Scientits": "",
+            "Health Records/HIM Officers": "",
+            "Number of Community Health Officer": "",
+            "Number of Community Health Extension Worker": "",
+            "Number of Junior Com Health Extension Worker": "",
+            "Number of Environmental Health Officers": "",
+            "Number of Health Attendant/Assistant": ""
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/2/0054",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Nnadozie Hospital/ Maternity",
+            "Alternate Name": "",
+            "Start Date": "1984-08-08",
+            "Ownership": "Private",
+            "Ownership Type": "For Profit",
+            "Facility Level": "Secondary",
+            "Facility Level Option": "",
+            "Days of Operation": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "74 okwu avenue off faul k  rd",
+            "Postal Address": "",
+            "Longitude": "7.358399034",
+            "Latitude": "5.118716955"
+        },
+        "Contacts": {
+            "Phone Number": "0806-994-5656",
+            "Alternate Number": "0706-088-3498",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Registered",
+            "License Status": "Licensed"
+        },
+        "Services": {
+            "Out Patient Services": "Yes",
+            "In Patient Services": "Yes",
+            "Medical Services": "",
+            "Surgical Services": "General Surgery",
+            "Obsterics and Gynecology Services": "Obstetrics Gynecology",
+            "Pediatrics Services": "",
+            "Dental Services": "",
+            "Specific Clinical Services": [
+                "Family Planning",
+                "Hepatitis",
+                "Accidents and Emergency"
+            ],
+            "Total number of Beds": "9",
+            "Onsite Laboratory": "",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "1",
+            "Number of Pharmacists": "0",
+            "Number Pharmacy Technicians": "0",
+            "Number of Dentists": "0",
+            "Number of Dental Technicians": "0",
+            "Number of Nurses": "1",
+            "Number of Midwifes": "0",
+            "Number of Nurses/Midwifes": "1",
+            "Number of Lab Technicians": "0",
+            "Number of Lab Scientits": "0",
+            "Health Records/HIM Officers": "0",
+            "Number of Community Health Officer": "0",
+            "Number of Community Health Extension Worker": "5",
+            "Number of Junior Com Health Extension Worker": "0",
+            "Number of Environmental Health Officers": "0",
+            "Number of Health Attendant/Assistant": "0"
+        }
+    },
+    {
+        "Identifiers": {
+            "Facility Code": "01/01/1/1/1/0019",
+            "State Unique ID": "",
+            "Registration No": "",
+            "Facility Name": "Powerline Health Post",
+            "Alternate Name": "",
+            "Start Date": "2019-05-09",
+            "Ownership": "Public",
+            "Ownership Type": "Local Government",
+            "Facility Level": "Primary",
+            "Facility Level Option": "Health Post",
+            "Days of Operation": "Monday, Tuesday, Wednesday, Thursday, Friday",
+            "Hours of Operation": ""
+        },
+        "Location": {
+            "State": "Abia",
+            "LGA": "Aba North",
+            "Ward": "Ariaria",
+            "Physical Location": "",
+            "Postal Address": "",
+            "Longitude": "",
+            "Latitude": ""
+        },
+        "Contacts": {
+            "Phone Number": "",
+            "Alternate Number": "",
+            "Email Address": "",
+            "Website": ""
+        },
+        "Status": {
+            "Operational Status": "Operational",
+            "Registration Status": "Registered",
+            "License Status": "Licensed"
+        },
+        "Services": {
+            "Out Patient Services": "Yes",
+            "In Patient Services": "",
+            "Medical Services": "",
+            "Surgical Services": "",
+            "Obsterics and Gynecology Services": "",
+            "Pediatrics Services": "",
+            "Dental Services": "",
+            "Specific Clinical Services": [
+                "Antenatal Care (ANC)",
+                "Immunization",
+                "HIV/ AIDS Services",
+                "Family Planning",
+                "Communicable Diseases",
+                "Hepatitis",
+                "Nutrition",
+                "Health Education and Community Mobilization"
+            ],
+            "Total number of Beds": "1",
+            "Onsite Laboratory": "",
+            "Onsite Imaging": "",
+            "Onsite Pharmacy": "",
+            "Mortuary Services": "",
+            "Ambulance Services": "No"
+        },
+        "Personnel": {
+            "Number of Doctors": "0",
+            "Number of Pharmacists": "0",
+            "Number Pharmacy Technicians": "0",
+            "Number of Dentists": "0",
+            "Number of Dental Technicians": "0",
+            "Number of Nurses": "0",
+            "Number of Midwifes": "0",
+            "Number of Nurses/Midwifes": "0",
+            "Number of Lab Technicians": "0",
+            "Number of Lab Scientits": "0",
+            "Health Records/HIM Officers": "0",
+            "Number of Community Health Officer": "0",
+            "Number of Community Health Extension Worker": "2",
+            "Number of Junior Com Health Extension Worker": "1",
+            "Number of Environmental Health Officers": "1",
+            "Number of Health Attendant/Assistant": "0"
+        }
+    }
+]
