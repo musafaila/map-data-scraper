@@ -11,7 +11,7 @@ from parser import parse_hospital_details
 from utils import save_to_json
 
 
-def scraper(url, name, index):
+def scraper(url, name, page):
     print(f'scraping "{url}"')
 
     HOSPITALS_DETAILS = []
@@ -20,7 +20,7 @@ def scraper(url, name, index):
     driver = None
     try:
         options = webdriver.FirefoxOptions()
-        options.add_argument('--headless')
+        # options.add_argument('--headless')
 
         driver = webdriver.Firefox(options=options)
     except Exception as e:
@@ -84,9 +84,9 @@ def scraper(url, name, index):
         driver.quit()
 
         if len(HOSPITALS_DETAILS) > 0:
-            save_to_json(f'{name}_{index+1}-hospitals.json', HOSPITALS_DETAILS)
+            save_to_json(f'{name}_page-{page}-hospitals.json', HOSPITALS_DETAILS)
 
         if len(ERRORS) > 0:
-            save_to_json(f'{name}_{index+1}-errors.json', ERRORS)
+            save_to_json(f'{name}_page-{page}-errors.json', ERRORS)
 
         print("DONE!")
