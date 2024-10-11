@@ -11,7 +11,7 @@ from parser import parse_hospital_details
 from utils import save_to_json
 
 
-def scraper(url, name, page):
+def scraper(url, state):
     print(f'scraping "{url}"')
 
     HOSPITALS_DETAILS = []
@@ -83,9 +83,8 @@ def scraper(url, name, page):
     finally:
         driver.quit()
 
-        save_to_json(f'{name}_page-{page}-hospitals.json',HOSPITALS_DETAILS)
 
         if len(ERRORS) > 0:
-            save_to_json(f'{name}_page-{page}-errors.json', ERRORS)
+            save_to_json(f'{state}-errors.json', ERRORS)
 
         print("DONE!")
