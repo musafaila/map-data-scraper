@@ -20,7 +20,7 @@ def scraper(url, name, page):
     driver = None
     try:
         options = webdriver.FirefoxOptions()
-        # options.add_argument('--headless')
+        options.add_argument('--headless')
 
         driver = webdriver.Firefox(options=options)
     except Exception as e:
